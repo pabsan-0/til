@@ -1,31 +1,23 @@
 site_name: TIL
 theme:
   name: material
-  logo: favicon.ico
+  logo: logo.png
   favicon: favicon.ico
   language: en
-  palette:
-    # Palette toggle for dark mode
-    - scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-
-    # Palette toggle for light mode
-    - scheme: default
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
 
   features:
     - navigation.instant
     - navigation.tracking
-    - navigation.tabs
+    # - navigation.tabs
     - navigation.indexes
+    - navigation.path
     - toc.follow
     - search.suggest
     - search.highlight
     - search.share
+
+extra_css:
+  - extra.css
 
 extra:
   social:
@@ -36,6 +28,7 @@ extra:
 plugins:
   - search
   - awesome-pages
+  - tags
 
 markdown_extensions:
   - attr_list
