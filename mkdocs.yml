@@ -1,0 +1,45 @@
+site_name: Wiki CATEC
+theme:
+  name: material
+  logo: favicon.ico
+  favicon: favicon.ico
+  language: en
+  palette:
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/pabsan-0
+      name: pabsan-0 on GitHub
+
+plugins:
+  - search
+  - awesome-pages
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
