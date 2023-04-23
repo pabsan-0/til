@@ -4,7 +4,6 @@ theme:
   logo: logo.png
   favicon: favicon.ico
   language: en
-
   features:
     - navigation.instant
     - navigation.tracking
@@ -15,9 +14,12 @@ theme:
     - search.highlight
     - search.share
     # - navigation.tabs
+  # WARNING: either setting a palette OR not specifying it while 
+  # extra.css is active will break the search
+  palette:
+    primary: indigo
 
-extra_css:
-  - extra.css
+extra_css: [extra.css]
 
 extra:
   social:
@@ -27,7 +29,6 @@ extra:
 
 plugins:
   - search
-  - awesome-pages
   - tags
 
 markdown_extensions:

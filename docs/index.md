@@ -1,7 +1,7 @@
 ---
 title: Homepage
 tags:
-    - none
+    - meta
 ---
 
 # Today I learned... ish
