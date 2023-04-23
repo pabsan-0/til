@@ -1,10 +1,11 @@
 ---
+title: ldd
 tags:
     - apt
     - c
     - ubuntu
-    - ldd
     - apt-file
+    - ldd
 ---
 
 
