@@ -1,5 +1,6 @@
 ---
 title: ldd
+date: "2023-04-23"
 tags:
     - apt
     - c

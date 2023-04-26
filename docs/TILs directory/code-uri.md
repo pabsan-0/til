@@ -1,5 +1,6 @@
 ---
 title: code from uri
+date: "2023-04-24"
 tags:
     - vscode
     - web
