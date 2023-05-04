@@ -34,6 +34,13 @@ title: Tags
  
 
 
+## <span class="tag">markdown</span>
+
+  * [glow](TILs directory/glow.md)
+
+ 
+
+
 ## <span class="tag">meta</span>
 
   * [Homepage](index.md)
@@ -45,9 +52,20 @@ title: Tags
  
 
 
+## <span class="tag">terminal</span>
+
+  * [glow](TILs directory/glow.md)
+
+ 
+
+
 ## <span class="tag">ubuntu</span>
 
   * [code from uri](TILs directory/code-uri.md)
+
+  * [complete](TILs directory/complete.md)
+
+  * [glow](TILs directory/glow.md)
 
   * [ldd](TILs directory/ldd.md)
 
